@@ -1,0 +1,1 @@
+alias creator="python ~/Documents/Projects/Project-Automator/prjCreator.py"
