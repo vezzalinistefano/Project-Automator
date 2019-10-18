@@ -26,7 +26,6 @@ def creator (args):
     sp.call(["git", "add", "."], cwd=args[1] + "/")
     sp.call(["git", "commit", "-m", "Initial Commit"], cwd=args[1] + "/")
     sp.call(["git", "push", "origin", "master"], cwd=args[1] + "/")
-    sp.call(["git", "push", "origin", "master"], cwd=args[1] + "/")
 
 if __name__ == "__main__":
     creator(sys.argv)
